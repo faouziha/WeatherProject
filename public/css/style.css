@@ -1,0 +1,47 @@
+body{
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    height: 560px;
+    font-family: 'helvetica neue';
+}
+.main{
+    border: 2px black solid;
+    margin: auto;
+    width:100%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    line-height: 3rem;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+@media (max-width: 1440px){
+    body{
+        height: 480px;
+    }
+    .main{
+        margin-top: 30%;
+    }
+}
+
+
+#cityInput{
+    border-radius: 5px;
+    width: 20vw;
+    padding: .1rem;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+label{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
